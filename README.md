@@ -2,20 +2,6 @@
 Programa em Python que faz a ingestão e validação de arquivos xlsx com uma interface gráfica desenvolvida usando Streamlit.
 O programa ingere as planilhas e valida se a estrutura está condizente com o padrão necessário e depois salva em um  banco de dados POSTRGRES.
 
-### Link do Projeto
-https://excel-validator.onrender.com
-
-Obs: Se atentar a estrutura de planilha que o programa aceita:
-```bash
-email: EmailStr
-data: datetime
-valor: PositiveFloat
-produto: str
-quantidade: PositiveInt
-categoria: CategoriaEnum
-```
-
-
 ### Instalação e Configuração
 
 1. Clone o repositório:
